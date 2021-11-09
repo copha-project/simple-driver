@@ -3,8 +3,8 @@ const https = require('https')
 
 class SimpleDriver extends Driver {
     _resp = ''
-    constructor(conf) {
-        super(conf)
+    constructor() {
+        super()
     }
     async init() {
 
